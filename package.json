@@ -2,10 +2,21 @@
   "name": "imgur-heatmap",
   "version": "1.0.0",
   "description": "Github-like heatmap for Imgur user activity",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Gjorgji Kirkov",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.config.js"
+  },
+  "dependencies": {
+    "d3": "5.15.1"
+  },
+  "devDependencies": {
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3",
+    "clean-webpack-plugin": "3.0.0",
+    "html-webpack-plugin": "4.2.0",
+    "style-loader": "1.1.4",
+    "css-loader": "3.5.2"
+  }
 }
