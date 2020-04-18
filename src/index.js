@@ -1,3 +1,3 @@
-const element = document.createElement('p');
-element.innerText = 'imgur heatmap';
-document.body.appendChild(element);
+window.onload = async () => {
+  // TODO implement charting
+};
