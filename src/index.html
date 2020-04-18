@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div id="overlay"></div>
+<div id="loader"></div>
 
+<div class="container-lg">
+
+    <h2 class="text-center">Search Imgur activity</h2>
+
+    <div class="input-group col-md-12">
+        <input class="form-control py-2" type="search" placeholder="Imgur username" id="userName"/>
+        <span class="input-group-append">
+            <button class="btn btn-primary" type="button" id="search">Search</button>
+        </span>
+    </div>
+    <div class="col-md-12">
+        <span id="errorMessage" class="hidden"></span>
+    </div>
+    <br/>
+    <div class="col-md-12">
+        <div id="heatmap-legend"></div>
+        <div id="heatmap-chart"></div>
+        <div id="heatmap-months"></div>
+    </div>
+</div>
 </body>
 </html>
